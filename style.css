@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+#form-contato{
+display :block;
+max-width: 600px;
+width: 60%;
+background-color:brown;
+margin:20px;
+padding: 25px;
+}
+
+input,
+button,
+textarea{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: black;
+width: 90%;
+margin: 10px;
+padding: 15px;
+}
+    
+
+
+label.button{
+    color: darkgreen;
+
+}
+
+textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+
+button {
+    background-color:lightcoral;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2;
+    }
+
+
+
+    label{
+        color: aliceblue;
+    }
